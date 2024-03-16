@@ -8,7 +8,9 @@ An in-memory database is a type of database that stores data entirely in main me
 
 In-memory databases are commonly used in applications that require fast access to large amounts of data, such as real-time analytics, online gaming, e-commerce, and social media. They are also used in applications that require high performance and scalability, as in-memory databases can handle high volumes of data and transactions without sacrificing performance.
 
-![In-memory database](https://github.com/username/repository/blob/master/images/image.png)
+![Image](https://github.com/omar-gamel/Redis-Caching-in-Node.js/blob/main/image.PNG)
+
+One of the main drawbacks of in-memory databases is that they are more sensitive to data loss in the event of a crash or shutdown, as the data is stored entirely in memory and is not persisted to disk. To address this issue, many in-memory databases, including Redis, provide features such as persistence and replication, which allow data to be saved to disk and replicated across multiple servers to ensure data durability and availability.
 
 # Installing Redis on Windows for Development
 
