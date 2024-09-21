@@ -35,16 +35,16 @@ Before you can install Redis on Windows, you need to set up the Windows Subsyste
    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
    ```
    
-1- Now, enable WSL2 by running the following command:   
+4. Now, enable WSL2 by running the following command:   
    ```powershell
    wsl --set-default-version 2
    ```
-2- Install your preferred Linux distribution from the Microsoft Store.
+5. Install your preferred Linux distribution from the Microsoft Store.
    - Open the Microsoft Store.
    - Search for your preferred Linux distribution (e.g., Ubuntu, Debian).
    - Click "Install" to download and install the distribution.
      
-3- Launch the installed Linux distribution and follow the on-screen instructions to set it up.
+6. Launch the installed Linux distribution and follow the on-screen instructions to set it up.
 
 ## Installing Redis
 
